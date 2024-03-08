@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
       </head>
       <body>
         <section>
-          <h2>What is your GOAL?</h2>
+          <h2>What is your GOAL Buddy?</h2>
           <h3>${userGoal}</h3>
         </section>
         <form action="/store-goal" method="POST">
